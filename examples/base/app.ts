@@ -90,3 +90,11 @@ axios({
   url: '/base/post',
   data: searchParams
 })
+
+const arr = new Int32Array([21, 31])
+
+axios({
+  method: 'post',
+  url: '/base/buffer',
+  data: arr
+})
